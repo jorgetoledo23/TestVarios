@@ -1,0 +1,31 @@
+.container{
+    width: 80vw;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid orange;
+    min-height: 300px;
+    width: 100%;
+    gap: 1rem;
+}
+
+.header div{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1{
+    grid-column: 1/4;
+}
